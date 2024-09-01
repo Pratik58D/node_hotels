@@ -49,7 +49,7 @@ router.get("/:workType", async (req, res) => {
 });
 
 
-//updating 
+//updating method
 
 router.put("/:id", async (req, res) => {
   try {
