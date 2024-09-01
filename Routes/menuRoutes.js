@@ -1,5 +1,5 @@
 const express = require("express");
-const MenuItem = require("../models/menu");
+const MenuItem = require("../models/menuModel");
 
 
 
