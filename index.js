@@ -12,25 +12,17 @@ app.get("/", function (req, res) {
 
 
 
-
+//this is routes for the application
 const personRoutes = require("./Routes/personRoutes")
+
+
 
 const menuRoutes = require("./Routes/menuRoutes")
 
+
+
 app.use("/person",personRoutes)
-
-
-
-
 app.use("/menu",menuRoutes)
-
-
-
-
-
-
-
-
 
 app.listen(3000, () => {
   console.log("listening on port 3000");
